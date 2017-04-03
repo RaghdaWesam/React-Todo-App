@@ -1,0 +1,14 @@
+to run changes (cmd 1):
+node_modules\.bin\webpack.cmd
+
+use chrome:
+run:
+chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
+
+to run changes without (cmd 1):
+run in 2 seperate terminals:
+- node_modules\.bin\webpack-dev-server
+- webpack --watch
+
+project run at:
+http://localhost:8080/

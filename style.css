@@ -1,0 +1,16 @@
+a.active{
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
+
+#todoText {
+  text-decoration: null;
+  display:inline-block;margin-right:10px;
+}
+
+
+#checkBoxx {
+  display:inline-block;
+}
+
+/*text-decoration: line-through;*/
